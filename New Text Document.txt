@@ -1,0 +1,59 @@
+
+
+
+			Phase1 
+						COre concept , with data Structure , 
+						basics ,
+						 OOPS , 
+						Exception handling 
+						MultiThreading 
+						Array 
+						COllections 
+						
+			Phase2:
+						back end : 
+
+	
+			phase3 
+			phase4 
+			phase5 
+
+
+Full Stack 													MEAN 					MERN
+			web App ...!
+					server : 
+	
+	front end 
+				HTML 
+				CSS 
+				Bootstracp 
+				javaScript...>							Angualr.js 					React.JS
+					
+
+	MiddleWare : 
+				//java  : Tomcat 						Express.Js						Express.Js
+				//Python : http 							Node.js								Node.js
+				//C#      : IIS 
+					JSP / ASP / PHP ....!
+				
+			tomecat 
+			
+
+	back end 
+			MYSQL or Oracle							MongoDb							MongoDb
+				
+	Applaiton: 
+			3 types : 
+				1)	Desktop Applocation : AWT and Swing 
+				2)	Web Application : watsp , facebook , linkdin, twitter, youtube , 
+				3) 	Mobile Applaition 
+				
+					Applition : 
+
+
+
+
+
+
+
+
