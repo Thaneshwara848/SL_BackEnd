@@ -30,7 +30,9 @@ Full Stack 													MEAN 					MERN
 				javaScript...>							Angualr.js 					React.JS
 					
 
+
 	MiddleWare : 
+				C
 				//java  : Tomcat 						Express.Js						Express.Js
 				//Python : http 							Node.js								Node.js
 				//C#      : IIS 
@@ -49,6 +51,104 @@ Full Stack 													MEAN 					MERN
 				3) 	Mobile Applaition 
 				
 					Applition : 
+
+
+
+phase2 :
+		JDBC :
+
+
+
+Phase 1 : 
+		Array :
+			int a[]= new int[5];
+					//  onlt 5 we can , but not more the 
+					//  only integer or homoginus 
+					// add , remove , find , search , sord , reverse, 
+		
+
+		
+		Collection :				 Collections 
+		List , Set 				Map 
+		AlinkedList
+		ArrayLIST
+		Vector 
+		Stack 
+		Set 
+
+			hashSet 
+			Linked hashSet 
+			SortedSet 
+			treeSet 
+		
+						java :
+								
+
+
+
+
+						Database :
+								Mysql 
+								Oracle 
+
+
+
+
+					JDBC
+
+
+
+
+
+
+
+
+4 types : lang 
+			
+		Scripting : no copiler : Python , javascipt , 
+		Prog : 	: Compiler : 	C / C++ / java 
+		markup :  : web 	: HTML , css 
+		Quary lang : database comminuctaion
+				SQL : 
+
+oracle :
+mysql 
+
+
+
+
+
+
+
+
+
+
+
+java : 
+
+
+
+
+EMp :
+
+	id, name ,Age , Salary , Desig
+	10	raj	25	50000	clerk
+		2 years : 
+
+				emp 
+				emp1
+				emp2 
+				emp100 
+				xyz
+				abc 
+				
+
+
+	
+create table Emp(ID number(5), Name varchar(10) , Age number(3) , Salary number(8) , Desig varchar(10));
+
+insert into emp Values(100,"Thanesh",25,50000,"Dev");
+
 
 
 
