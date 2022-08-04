@@ -38,6 +38,3 @@ class Demo1
 	
 	}
 }
-
-		Database :
-				table :

@@ -150,7 +150,17 @@ create table Emp(ID number(5), Name varchar(10) , Age number(3) , Salary number(
 insert into emp Values(100,"Thanesh",25,50000,"Dev");
 
 
+desc emp;
 
+select * from emp;
+
+MYSQL :
+create table MyEmployees(ID int, Name varchar(10) , Age int , Salary int , Desig varchar(10));
+insert into MyEmployees  Values(100,'Thanesh',25,50000,'Dev');
+
+
+
+10 %
 
 
 
