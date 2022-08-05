@@ -167,3 +167,36 @@ insert into MyEmployees  Values(100,'Thanesh',25,50000,'Dev');
 
 
 
+
+			JDBC 
+					Database 
+			Web : 
+				Servelt 
+				JSP 
+			
+			Hibernate 
+			Spring:  Core 
+			         AOP 
+				   MVC 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
