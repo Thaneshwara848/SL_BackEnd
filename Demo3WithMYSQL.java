@@ -13,8 +13,11 @@ public class Demo3WithMYSQL {
 			int salary= sc.nextInt();
 			
 			
-			Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee","root","root");
+			//Class.forName("com.mysql.jdbc.Driver");
+//			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee","root","root");
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","tiger");
+			
 			PreparedStatement stmt = con.prepareStatement("update MyEmps  set salary = ? where id = ?");
 			stmt.setInt(1, salary);
 			stmt.setInt(2, uid);

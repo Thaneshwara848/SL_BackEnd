@@ -11,14 +11,13 @@ public class Demo4WithMYSQL {
 			Scanner sc= new Scanner(System.in);
 			System.out.println("Enter ID ");
 			int uid= sc.nextInt();
-		
-		
+
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee","root","root");
+//			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee","root","root");
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","tiger");
 			PreparedStatement stmt = con.prepareStatement("delete from MyEmps where id = ?");
-			
-			stmt.setInt(1, uid);
-				
+			stmt.setInt(1, uid);	
 			System.out.println("DO you Really wanmt to Delete the record ....? yes / no ");
 			String op=sc.next();
 			
@@ -32,7 +31,6 @@ public class Demo4WithMYSQL {
 				System.out.println("Not Deleted ...!");
 			}
 			stmt.close();con.close();
-			
 		}
 		catch (Exception e) 
 		{
